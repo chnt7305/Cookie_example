@@ -7,6 +7,7 @@ import sys
 type = sys.getfilesystemencoding()
 
 yuanshi_url = "http://www.zhihu.com"
+host = "www.zhihu.com"
 
 #声明一个MozillaCookieJar对象实例来保存cookie
 cookie_jar = cookielib.MozillaCookieJar()
@@ -24,7 +25,7 @@ cookie_handler = urllib2.HTTPCookieProcessor(cookie_jar)
 #添加HTTP头部，模拟浏览器
 headers = {
 			"GET":yuanshi_url,
-			"Host":"www.zhihu.com",
+			"Host":host,
 			"User-Agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36"
 			}
 request = urllib2.Request(yuanshi_url)
