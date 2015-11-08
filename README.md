@@ -14,4 +14,7 @@ http://iwww.me/395.html
 用Python模拟浏览器登录
 http://zipperary.com/2013/08/16/python-login/
 
+Python Requests库：HTTP for Humans
+http://www.cnblogs.com/linxiyue/p/3980003.html
+
 感谢那些分享的人们！
